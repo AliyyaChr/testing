@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2 style="text-align: center">Form Pemesanan</h2>
+      <form style="padding-inline: 50px">
+        <table>
+          <tr>
+            <td style="width: 250px; padding-top: 10px; padding-bottom: 10px">
+              <label for="nama">Nama Lengkap</label>
+            </td>
+            <td>
+              <input type="text" id="nama" style="width: 300px" />
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 250px; padding-top: 10px; padding-bottom: 10px">
+              <label for="nomor_identitas">Nomor Identitas</label>
+            </td>
+            <td>
+              <input type="text" id="nomor_identitas" style="width: 300px" />
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 250px; padding-top: 10px; padding-bottom: 10px">
+              <label for="no_hape">No. HP</label>
+            </td>
+            <td>
+              <input type="text" id="no_hape" style="width: 300px" />
+            </td>
+          </tr>
+          <tr>
+            <td class="input-style padding-top: 10px; padding-bottom: 10px">
+              <label for="tempat_wisata">Tempat Wisata</label>
+            </td>
+            <td>
+              <select id="tempat_wisata" style="width: 310px">
+                <option value="10.000">Museum - Rp 10.000</option>
+                <option value="20.000">Waterboom - Rp 20.000</option>
+                <option value="15.000">Pantai - Rp 15.000</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td class="input-style padding-top: 10px; padding-bottom: 10px">
+              <label for="tanggal_kunjungan">Tanggal Kunjungan</label>
+            </td>
+            <td>
+              <input type="date" id="tanggal_kunjungan" style="width: 310px" />
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 250px; padding-top: 10px; padding-bottom: 10px">
+              <label for="pengunjung_dewasa">Pengunjung Dewasa</label>
+            </td>
+            <td>
+              <input type="number" id="pengunjung_dewasa" style="width: 300px" />
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 250px; padding-top: 10px; padding-bottom: 10px">
+              <label for="pengunjung_anak">Pengunjung Anak-Anak</label>
+            </td>
+            <td>
+              <input type="number" id="pengunjung_anak" style="width: 300px" />
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 250px; padding-top: 10px; padding-bottom: 10px">
+              <label for="harga_tiket">Harga Tiket</label>
+            </td>
+            <td>
+              <div id="harga_tiket">Rp.</div>
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 250px; padding-top: 10px; padding-bottom: 10px">
+              <label for="total_bayar">Total Bayar</label>
+            </td>
+            <td>
+              <div id="total_bayar">Rp.</div>
+            </td>
+          </tr>
+        </table>
+
+        <div class="btn-wrapper">
+          <button type="button" class="btn-bayar">Pesan Tiket</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
